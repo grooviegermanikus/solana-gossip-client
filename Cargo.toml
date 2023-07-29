@@ -1,0 +1,23 @@
+[package]
+name = "solana-gossip-client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "=0.13.0"
+bincode = "=1.3.3"
+bs58 = "=0.4.0"
+# most redcent version that works with rust <= rust 1.47
+#ed25519 = "=1.3.0"
+#ed25519 = "=1.3.0"
+#ed25519-dalek = "=1.0.1"
+ed25519 = "2.2.1"
+ed25519-dalek = "1.0.1"
+rand = "=0.8.5"
+solana-client = "~1.14.9"
+solana-gossip = "~1.14.9"
+solana-net-utils = "~1.14.9"
+solana-sdk = "~1.14.9"
+solana-streamer = "~1.14.9"
