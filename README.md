@@ -1,10 +1,7 @@
 
-
-see https://github.com/bji/solana-hammer/blob/master/client/src/fetch_tpu.rs
-
-
 Run against testnet
 ===================
+__Note: it takes very long for the gossip interaction to settle!__
 ```
  # use mango dallas node
  cargo run -- --gossip-entrypoint 139.178.82.223:8001 --output-file validators.bin
