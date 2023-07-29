@@ -1,3 +1,9 @@
+Solana Gossip Service
+=====================
+
+Simple example how to run the _GossipService_ to get the TPU nodes (validator identity and IP+port).
+
+Gossip runs on port 8001 (default).
 
 Run against testnet
 ===================
